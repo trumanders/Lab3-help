@@ -52,4 +52,8 @@ class CalculatorTest {
         assertEquals(2.0, result);
     }
 
+    public void testAddd(){
+        int actual = calculator.add(8,9);
+        assertEquals(18,actual);
+    }
 }
